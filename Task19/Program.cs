@@ -10,7 +10,7 @@ if (number > 99999 || number < 10000)
 }
 else
 {
-if (lastDigit == firstDigit || secondDigit == penultimateDigit)
+if (lastDigit == firstDigit && secondDigit == penultimateDigit)
 {
     Console.WriteLine("Число является палиндромом");
 }
